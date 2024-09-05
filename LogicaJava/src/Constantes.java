@@ -6,12 +6,12 @@ public class Constantes {
 
         Scanner scanner = new Scanner(System.in);
 
-        final int idadeMinimaParaTirarCarteira = 18;  // a palavra final faz o codigo ser uma constante, ou seja, ela não pode mudar.
+        final int IDADE_MINIMA_PARA_TIRAR_CARTEIRA = 18;  // a palavra final faz o codigo ser uma constante, ou seja, ela não pode mudar.
 
         System.out.print("Digite sua idade: ");
         int idade = scanner.nextInt();
 
-        boolean podeTirarCarteira = idade >= idadeMinimaParaTirarCarteira;
+        boolean podeTirarCarteira = idade >= IDADE_MINIMA_PARA_TIRAR_CARTEIRA;
 
         if (podeTirarCarteira) {
             System.out.println("Sim, ele pode tirar a carteira de habilitação.");
