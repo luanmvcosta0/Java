@@ -21,9 +21,9 @@ public class ProdutoDesconto {
             percentualDesconto = 10.0;
         }
 
-        Double desconto = subtotal * percentualDesconto / 100;
+        double desconto = subtotal * percentualDesconto / 100;
 
-        Double valorTotalDesconto = subtotal - desconto;
+        double valorTotalDesconto = subtotal - desconto;
 
         System.out.println("Valor total: " + valorTotalDesconto);
 
